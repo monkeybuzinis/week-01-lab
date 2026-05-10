@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Gloria+Hallelujah&family=Playwrite+GB+J+Guides:ital@0;1&display=swap');
-
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+  }
+}
 /* ── Tokens ── */
 :root {
   --color-bg:       #dde8e8;
@@ -151,4 +156,11 @@ footer {
   color: var(--color-muted);
 }
 
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+  }
+}
 
